@@ -6,10 +6,11 @@ import { AppComponent } from './app.component'
 import { MatIconModule } from '@angular/material/icon'
 import { MatButtonModule } from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar'
-import { NavbarComponent } from './core/components/navbar/navbar.component'
+import { NavbarComponent } from './core/components/navbar/navbar.component';
+import { CarListComponent } from './features/car/car-list/car-list.component'
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, CarListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
