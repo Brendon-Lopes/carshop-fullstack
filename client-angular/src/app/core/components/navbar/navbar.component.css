@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+.icon {
+   transform: scale(1.5);
+}
